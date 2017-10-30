@@ -1,5 +1,5 @@
 FROM node
-MAINTAINER ian.miell@gmail.com
+LABEL maintainer ian.miell@gmail.com
 RUN git clone https://github.com/docker-in-practice/todo.git
 WORKDIR todo
 RUN npm install
