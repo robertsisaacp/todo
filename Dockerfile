@@ -1,6 +1,6 @@
 FROM node
-LABEL maintainer ian.miell@gmail.com
-RUN git clone https://github.com/docker-in-practice/todo.git
+LABEL maintainer robertsisaacp@gmail.com
+RUN git clone https://github.com/robertsisaacp/todo.git
 WORKDIR todo
 RUN npm install
 RUN chmod -R 777 /todo
